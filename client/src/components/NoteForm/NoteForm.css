@@ -1,0 +1,33 @@
+.note-form {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 16px;
+  width: 400px;
+  flex-shrink: 0;
+  padding: 20px;
+  background-color: white;
+  box-sizing: border-box;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  height: 75%;
+}
+
+.note-form__error {
+  color: var(--error);
+  font-size: 14px;
+  margin: 0;
+  min-height: 20px;
+}
+
+.note-form__success {
+  color: var(--primary);
+  font-size: 14px;
+  margin: 0;
+  min-height: 20px;
+}
+
+.note-form__error--hidden,
+.note-form__success--hidden {
+  visibility: hidden;
+}

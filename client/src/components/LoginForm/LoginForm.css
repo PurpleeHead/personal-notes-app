@@ -1,0 +1,32 @@
+.login-form {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 16px;
+}
+
+.login-form__logo {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 8px;
+}
+
+.login-form__logo img {
+  width: 48px;
+  height: 48px;
+}
+
+.login-form__title {
+  font-size: 24px;
+  font-weight: 600;
+  color: var(--text-primary);
+  text-align: center;
+  margin: 0;
+}
+
+.login-form__error {
+  color: var(--error);
+  font-size: 14px;
+  margin: 0;
+  min-height: 20px;
+}

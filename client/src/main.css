@@ -1,0 +1,48 @@
+:root {
+  font-family:
+    -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue",
+    Arial, sans-serif;
+  --primary: #00a82d;
+  --primary-hover: #008f26;
+  --secondary: #737373;
+  --secondary-hover: #333;
+
+  --text-primary: #333;
+  --text-secondary: #afafaf;
+
+  --border: #e6e6e6;
+  --border-accent: #008f2680;
+
+  --background: #fff;
+  --error: #ff7070;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+#root {
+  height: 100vh;
+  color: var(--text-primary);
+}
+
+input,
+textarea {
+  font-family: inherit;
+}
+
+textarea {
+  resize: vertical;
+  min-height: 100px;
+}

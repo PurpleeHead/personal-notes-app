@@ -1,0 +1,52 @@
+.note-view {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid var(--border-accent);
+  border-radius: 8px;
+  padding: 16px 24px;
+  gap: 5px;
+  box-sizing: border-box;
+  cursor: pointer;
+  min-height: 100px;
+  width: 100%;
+}
+
+.note-view p {
+  margin: 0;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  overflow: visible;
+}
+
+.note-view__head {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 5px;
+  width: 100%;
+}
+
+.note-view__title {
+  font-size: 18px;
+  line-height: 1.3;
+  font-weight: 600;
+  color: var(--text-primary);
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  white-space: normal;
+  max-width: 100%;
+}
+
+.note-view__datetime {
+  font-size: 12px;
+  color: var(--text-secondary);
+}
+
+.note-view__text {
+  font-size: 15px;
+  line-height: 1.5;
+  color: var(--text-primary);
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  white-space: pre-wrap;
+}
